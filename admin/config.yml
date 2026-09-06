@@ -1,0 +1,106 @@
+backend:
+  name: github
+  repo: gaergroup/gaer-group-web
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "contenido"
+    label: "Contenido de la web"
+    files:
+      - label: "Página principal"
+        name: "site"
+        file: "content/site.json"
+        format: json
+        fields:
+          - label: "Marca"
+            name: "brand"
+            widget: "object"
+            fields:
+              - label: "Nombre comercial"
+                name: "name"
+                widget: "string"
+
+          - label: "Inicio"
+            name: "hero"
+            widget: "object"
+            fields:
+              - label: "Antetítulo"
+                name: "eyebrow"
+                widget: "string"
+              - label: "Título"
+                name: "title"
+                widget: "string"
+              - label: "Texto"
+                name: "text"
+                widget: "text"
+              - label: "Imagen principal"
+                name: "image"
+                widget: "image"
+
+          - label: "Servicios"
+            name: "services"
+            widget: "list"
+            fields:
+              - label: "Nombre"
+                name: "title"
+                widget: "string"
+              - label: "Descripción"
+                name: "text"
+                widget: "text"
+
+          - label: "Showroom"
+            name: "showroom"
+            widget: "object"
+            fields:
+              - label: "Título"
+                name: "title"
+                widget: "string"
+              - label: "Texto"
+                name: "text"
+                widget: "text"
+              - label: "Foto"
+                name: "image"
+                widget: "image"
+
+          - label: "Proyectos"
+            name: "projects"
+            widget: "list"
+            fields:
+              - label: "Título"
+                name: "title"
+                widget: "string"
+              - label: "Descripción"
+                name: "text"
+                widget: "text"
+              - label: "Foto"
+                name: "image"
+                widget: "image"
+
+          - label: "Contacto"
+            name: "contact"
+            widget: "object"
+            fields:
+              - label: "Teléfono 1"
+                name: "phone1"
+                widget: "string"
+              - label: "Teléfono 2"
+                name: "phone2"
+                widget: "string"
+              - label: "WhatsApp"
+                name: "whatsapp"
+                widget: "string"
+              - label: "Email"
+                name: "email"
+                widget: "string"
+                required: false
+              - label: "Dirección"
+                name: "address"
+                widget: "text"
+                required: false
+              - label: "Horario"
+                name: "hours"
+                widget: "text"
+                required: false
