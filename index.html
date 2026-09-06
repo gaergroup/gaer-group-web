@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="GAER GROUP — Reformas, construcción y showroom de materiales.">
+<title>GAER GROUP | Reformas & Construcción</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#172022;--muted:#657071;--paper:#f6f4ef;--white:#fff;--accent:#d64b3d;--dark:#1c2223;--line:#dedbd3;--r:22px;--max:1180px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif}a{text-decoration:none;color:inherit}img{display:block;width:100%}.container{width:min(calc(100% - 40px),var(--max));margin:auto}
+.topbar{position:absolute;top:0;left:0;right:0;z-index:10;color:#fff}nav{height:86px;display:flex;align-items:center;justify-content:space-between}.brand{font:800 25px Manrope;letter-spacing:-1px}.brand span{color:#ef6b5b}.navlinks{display:flex;gap:28px;font-size:14px;font-weight:600}.nav-actions{display:flex;gap:10px;align-items:center}.lang{border:1px solid #ffffff66;background:#ffffff12;color:#fff;padding:10px 12px;border-radius:999px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 21px;border-radius:999px;background:#fff;color:var(--ink);font-weight:700;border:1px solid transparent;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn.red{background:var(--accent);color:#fff}.btn.dark{background:var(--ink);color:#fff}
+.hero{min-height:760px;position:relative;display:flex;align-items:end;overflow:hidden;background:#222}.hero>img{position:absolute;inset:0;height:100%;object-fit:cover}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#080c0db8,#080c0d45 58%,#080c0d18)}.hero-content{position:relative;z-index:2;color:#fff;padding:170px 0 92px;max-width:780px}.eyebrow{text-transform:uppercase;letter-spacing:2.2px;font-size:12px;font-weight:700;color:#f3b0a8;margin-bottom:18px}h1,h2,h3{font-family:Manrope;margin:0;letter-spacing:-.045em}h1{font-size:clamp(44px,6.5vw,82px);line-height:.96}.hero p{font-size:19px;line-height:1.55;max-width:610px;color:#ffffffdc;margin:26px 0 32px}.buttons{display:flex;gap:12px;flex-wrap:wrap}.outline{background:#ffffff12;color:#fff;border-color:#ffffff8c;backdrop-filter:blur(8px)}
+section{padding:105px 0}.head{display:flex;justify-content:space-between;gap:40px;align-items:end;margin-bottom:42px}.head h2{font-size:clamp(34px,4.5vw,58px);line-height:1}.head p{max-width:450px;color:var(--muted);line-height:1.65;margin:0}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:32px;min-height:250px;display:flex;flex-direction:column;justify-content:space-between}.service .num{color:var(--accent);font-weight:700;font-size:13px}.service h3{font-size:27px;margin:35px 0 10px}.service p{color:var(--muted);line-height:1.6;margin:0}
+.band{background:#e8e3da}.split{display:grid;grid-template-columns:1fr 1fr;gap:22px}.image-card{border-radius:var(--r);overflow:hidden;min-height:560px}.image-card img{height:100%;object-fit:cover}.copy{background:var(--dark);color:#fff;border-radius:var(--r);padding:55px;display:flex;flex-direction:column;justify-content:center}.copy h2{font-size:clamp(38px,4vw,58px);line-height:1.02;margin:10px 0 20px}.copy p{color:#c7cdcd;line-height:1.7}.checks{padding:0;margin:28px 0;list-style:none;display:grid;gap:12px}.checks li:before{content:"✓";color:#ef786a;font-weight:800;margin-right:10px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.gallery figure{margin:0;border-radius:var(--r);overflow:hidden;background:#ddd;aspect-ratio:1/1}.gallery img{height:100%;object-fit:cover}.gallery figcaption{display:none}
+.contact{background:var(--accent);color:#fff;border-radius:30px;padding:65px;display:flex;align-items:end;justify-content:space-between;gap:35px}.contact h2{font-size:clamp(38px,5vw,65px);line-height:1}.contact p{max-width:560px;color:#ffe6e2;line-height:1.6}.contact-actions{display:flex;flex-wrap:wrap;gap:10px}
+footer{background:var(--dark);color:#d6dada;padding:48px 0}.footer{display:flex;justify-content:space-between;gap:30px}.footer strong{color:#fff;font:800 24px Manrope}.footer small{display:block;color:#9ea8a8;margin-top:8px}.links{display:flex;gap:24px;font-size:14px;flex-wrap:wrap}.mobile{display:none}
+@media(max-width:850px){.navlinks{display:none}.mobile{display:block;background:none;border:1px solid #ffffff73;color:#fff;border-radius:999px;padding:10px 13px}.nav-actions .btn{display:none}.hero{min-height:690px}.hero-content{padding:150px 0 60px}.services,.split{grid-template-columns:1fr}.image-card{min-height:390px}.copy{padding:38px}.gallery{grid-template-columns:1fr 1fr}.contact{padding:42px 30px;display:block}.contact-actions{margin-top:24px}}
+@media(max-width:520px){.container{width:min(calc(100% - 28px),var(--max))}nav{height:72px}.hero{min-height:640px}.hero-content{padding:120px 0 42px}.hero p{font-size:16px}.btn{padding:13px 17px}.service{padding:25px;min-height:210px}.gallery{display:block}.gallery figure{margin-bottom:12px}.contact{border-radius:22px}.footer{display:block}.links{margin-top:24px}}
+</style>
+</head>
+<body>
+<header class="topbar"><nav class="container">
+<a class="brand" href="#" id="brand">GAER<span>GROUP</span></a>
+<div class="navlinks"><a href="#servicios" data-key="services">Servicios</a><a href="#showroom">Showroom</a><a href="#proyectos">Proyectos</a><a href="#contacto">Contacto</a></div>
+<div class="nav-actions"><button class="lang" id="lang">EN</button><a class="btn" href="#contacto">Solicitar presupuesto</a><button class="mobile" aria-label="Menú">☰</button></div>
+</nav></header>
+<main id="app"></main>
+<footer><div class="container footer"><div><strong id="footerBrand">GAER GROUP</strong><small id="footerTag"></small></div><div class="links"><a href="#servicios">Servicios</a><a href="#showroom">Showroom</a><a href="#proyectos">Proyectos</a><a href="#contacto">Contacto</a><a href="/admin/">Administración</a></div></div></footer>
+<script>
+let data, lang="es";
+const t=x=>x?.[lang]??x?.es??"";
+function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));}
+function render(){
+ const h=data.hero,s=data.showroom,c=data.contact;
+ document.title=data.brand.name+" | Reformas & Construcción";
+ document.getElementById("brand").innerHTML=esc(data.brand.name).replace("GROUP","<span>GROUP</span>");
+ document.getElementById("footerBrand").textContent=data.brand.name;
+ document.getElementById("footerTag").textContent=t(data.brand.tagline);
+ document.getElementById("lang").textContent=lang==="es"?"EN":"ES";
+ const services=data.services.map((x,i)=>`<article class="service"><span class="num">0${i+1}</span><div><h3>${esc(t(x.title))}</h3><p>${esc(t(x.text))}</p></div></article>`).join("");
+ const points=(s.points||[]).map(x=>`<li>${esc(t(x))}</li>`).join("");
+ const projects=data.projects.map(x=>`<figure><img src="${esc(x.image)}" alt="${esc(t(x.title))}" loading="lazy"><figcaption>${esc(t(x.title))}</figcaption></figure>`).join("");
+ document.getElementById("app").innerHTML=`
+ <section class="hero"><img src="${esc(h.image)}" alt="${esc(t(h.title))}"><div class="container hero-content">
+ <div class="eyebrow">${esc(t(h.eyebrow))}</div><h1>${esc(t(h.title))}</h1><p>${esc(t(h.text))}</p>
+ <div class="buttons"><a class="btn red" href="#contacto">${lang==="es"?"Hablemos de tu proyecto":"Let's talk about your project"}</a><a class="btn outline" href="#showroom">${lang==="es"?"Conoce nuestro showroom":"Discover our showroom"}</a></div></div></section>
+ <section id="servicios"><div class="container"><div class="head"><h2>${lang==="es"?"Todo el proyecto,<br>en un solo equipo.":"The whole project,<br>with one team."}</h2><p>${lang==="es"?"Desde la planificación hasta el último acabado, coordinamos los trabajos para que tengas un único interlocutor y un resultado cuidado.":"From planning to the final finish, we coordinate the work so you have one point of contact and a carefully executed result."}</p></div><div class="services">${services}</div></div></section>
+ <section class="band" id="showroom"><div class="container split"><div class="image-card"><img src="${esc(s.image)}" alt="${esc(t(s.title))}" loading="lazy"></div><div class="copy"><div class="eyebrow">${esc(t(s.eyebrow))}</div><h2>${esc(t(s.title))}</h2><p>${esc(t(s.text))}</p><ul class="checks">${points}</ul><a class="btn" href="#contacto">${lang==="es"?"Preguntar por el showroom":"Ask about the showroom"}</a></div></div></section>
+ <section id="proyectos"><div class="container"><div class="head"><h2>${lang==="es"?"Proyectos que hablan<br>por nosotros.":"Projects that speak<br>for themselves."}</h2><p>${lang==="es"?"Añade desde el panel nuevas reformas, fotografías y descripciones cuando quieras.":"Add new projects, photos and descriptions from the admin panel whenever you want."}</p></div><div class="gallery">${projects}</div></div></section>
+ <section id="contacto"><div class="container"><div class="contact"><div><div class="eyebrow">${esc(t(c.eyebrow))}</div><h2>${esc(t(c.title))}</h2><p>${esc(t(c.text))}</p>${c.address?`<p>${esc(c.address)}</p>`:""}</div><div class="contact-actions"><a class="btn" href="tel:${esc(c.phone1.replace(/\\s/g,""))}">${esc(c.phone1)}</a>${c.phone2?`<a class="btn" href="tel:${esc(c.phone2.replace(/\\s/g,""))}">${esc(c.phone2)}</a>`:""}${c.whatsapp?`<a class="btn dark" target="_blank" rel="noopener" href="https://wa.me/${esc(c.whatsapp)}">WhatsApp</a>`:""}${c.email?`<a class="btn" href="mailto:${esc(c.email)}">Email</a>`:""}</div></div></div></section>`;
+}
+document.getElementById("lang").onclick=()=>{lang=lang==="es"?"en":"es";render()};
+fetch("/content/site.json").then(r=>r.json()).then(x=>{data=x;render()}).catch(()=>document.getElementById("app").innerHTML="<div class='container' style='padding:100px 0'>No se pudo cargar el contenido.</div>");
+</script>
+</body></html>

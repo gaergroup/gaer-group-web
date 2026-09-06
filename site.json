@@ -1,0 +1,118 @@
+{
+  "brand": {
+    "name": "GAER GROUP",
+    "tagline": {
+      "es": "Reformas & Construcción · Showroom",
+      "en": "Renovation & Construction · Showroom"
+    }
+  },
+  "hero": {
+    "eyebrow": {
+      "es": "Reformas · Construcción · Materiales",
+      "en": "Renovation · Construction · Materials"
+    },
+    "title": {
+      "es": "Transformamos espacios. Construimos ideas.",
+      "en": "We transform spaces. We build ideas."
+    },
+    "text": {
+      "es": "GAER GROUP es una empresa de reformas y construcción con showroom propio para ayudarte a elegir materiales, acabados y soluciones para tu proyecto.",
+      "en": "GAER GROUP is a renovation and construction company with its own showroom to help you choose materials, finishes and solutions for your project."
+    },
+    "image": "/assets/fachada-principal.webp"
+  },
+  "services": [
+    {
+      "title": {
+        "es": "Reformas integrales",
+        "en": "Full renovations"
+      },
+      "text": {
+        "es": "Viviendas, locales y espacios profesionales. Planificación, obra y acabados.",
+        "en": "Homes, commercial spaces and professional environments. Planning, construction and finishes."
+      }
+    },
+    {
+      "title": {
+        "es": "Construcción",
+        "en": "Construction"
+      },
+      "text": {
+        "es": "Soluciones de construcción y renovación adaptadas a las necesidades de cada proyecto.",
+        "en": "Construction and renovation solutions adapted to each project's needs."
+      }
+    },
+    {
+      "title": {
+        "es": "Materiales & showroom",
+        "en": "Materials & showroom"
+      },
+      "text": {
+        "es": "Una selección de materiales y acabados para que puedas ver, comparar y decidir.",
+        "en": "A selection of materials and finishes so you can see, compare and decide."
+      }
+    }
+  ],
+  "showroom": {
+    "eyebrow": {
+      "es": "Nuestro showroom",
+      "en": "Our showroom"
+    },
+    "title": {
+      "es": "Ven a tocar los materiales antes de decidir.",
+      "en": "See and feel the materials before you decide."
+    },
+    "text": {
+      "es": "Tenemos un espacio pensado para ayudarte a visualizar tu reforma: materiales, revestimientos, soluciones y detalles que marcan la diferencia.",
+      "en": "We have a space designed to help you visualize your renovation: materials, finishes, solutions and details that make the difference."
+    },
+    "image": "/assets/fachada-principal.webp",
+    "points": [
+      {
+        "es": "Selección de materiales",
+        "en": "Material selection"
+      },
+      {
+        "es": "Asesoramiento para tu proyecto",
+        "en": "Project advice"
+      },
+      {
+        "es": "Soluciones para reforma y construcción",
+        "en": "Renovation and construction solutions"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": {
+        "es": "Showroom GAER GROUP",
+        "en": "GAER GROUP Showroom"
+      },
+      "text": {
+        "es": "Nuestro espacio para conocer materiales, acabados y soluciones.",
+        "en": "Our space to explore materials, finishes and solutions."
+      },
+      "image": "/assets/fachada-principal.webp"
+    }
+  ],
+  "contact": {
+    "eyebrow": {
+      "es": "¿Hablamos?",
+      "en": "Let's talk"
+    },
+    "title": {
+      "es": "Cuéntanos qué quieres reformar.",
+      "en": "Tell us what you want to renovate."
+    },
+    "text": {
+      "es": "Llámanos o escríbenos para hablar de tu proyecto, pedir presupuesto o concertar una visita al showroom.",
+      "en": "Call or message us to discuss your project, request a quote or arrange a showroom visit."
+    },
+    "phone1": "652 825 526",
+    "phone2": "659 752 549",
+    "whatsapp": "34652825526",
+    "email": "",
+    "address": "",
+    "hours": ""
+  }
+}
